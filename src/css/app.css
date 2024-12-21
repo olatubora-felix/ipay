@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply container mx-auto max-w-[1280px];
+}
+
+.btn {
+  @apply font-medium text-lg leading-[17px];
+}
+.shadow {
+  box-shadow: 0px 20px 40px 0px #2a41cb40;
+}
+.shadow2 {
+  box-shadow: 0px 16px 40px 0px #4f53592e;
+}
+
+.icon-style {
+  @apply w-[60px] h-[60px] shadow2 bg-white rounded-full border-[1.8px] border-light-200 flex justify-center items-center;
+}
+
+.card {
+  @apply bg-light-100 shadow2 rounded-lg border-[1.5px] border-light-200;
+}
